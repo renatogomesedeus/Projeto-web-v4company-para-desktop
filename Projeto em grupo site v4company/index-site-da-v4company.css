@@ -1,0 +1,894 @@
+/*****Inicio Tag generica*****/
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black url(imagens/fundo\ degrade.jpg) repeat-y center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  
+  
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+span {
+  color: rgb(255, 0, 0);
+}
+
+/*****Fim da Tag generica*****/
+
+/*****Inicio do Cabeçalho - Eduardo*****/
+
+#jl-cabecalho {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background: black url(imagens/v4-company.png) no-repeat;
+  padding: 0 auto 10px auto;
+  background-position: 10% 75%;
+  cursor: pointer;
+}
+
+div#jl-titulos ul li a {
+  list-style: none;
+  text-decoration: none;
+  color: azure;
+}
+
+div#jl-titulos ul li a:hover {
+  background-color: rgb(196, 41, 74);
+  transition: all 0.2s;
+  border-radius: 1px;
+}
+
+div#jl-titulos ul li {
+  display: inline;
+  text-decoration: none;
+  margin: 4px;
+}
+
+#jl-cabecalho h1 {
+  margin-left: 45%;
+}
+
+#logo {
+  left: 50px;
+  /*border: 1px solid red;*/
+}
+
+#jl-titulos {
+  margin-left: 56.5%;
+  margin-top: 2%;
+}
+
+#jl-cabecalho, h2 {
+  color: #fff;
+  
+}
+
+/*****Fim do Cabeçalho - Eduardo*****/
+
+/********Inicio do conteudo 2- Renato***********/
+#h2-home-center {
+  text-align: center;
+}
+
+div#jl-conteudo-1 h2 {
+  color: aliceblue;
+  position: relative;
+  margin-left: 25%;
+}
+
+.background-branco {
+  background: #fff;
+  padding-bottom: 4%;
+  
+}
+
+div#jl-conteudo-1 h1 span {
+  color: rgb(255, 0, 0);
+}
+
+div#jl-conteudo-1 img.imagem-lebes {
+  width: 5%;
+  height: 5%;
+  margin-left: 8.8%;
+  cursor: pointer;
+  background-color: rgb(255, 0, 0, 10);
+  border-radius: 5px;
+  min-width: 80px;
+  max-width: 750px;
+}
+
+div#jl-conteudo-1 p {
+  color: black;
+  margin: 0 60% 0 8.8%;
+  font-size: 14px;
+  min-width: 250px;
+  max-width: 750px;
+}
+
+div#jl-conteudo-1 h2 {
+  color: black;
+  margin: 2% 83% 1% 8.8%;
+  font-size: 17px;
+  min-width: 250px;
+  max-width: 750px;
+}
+
+#cor-do-botao {
+  width: 285px;
+  height: 55px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 15px 0px 15px 2px;
+  margin: 20px 60% 0 8.9%;  
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+  margin-left: 13px;
+  margin-bottom: -1.3%;
+}
+
+ .jl-seta-para-baixo img {
+  width: 10px;
+  height: 10px;
+ border: 1px solid blue;
+  
+}
+
+#cor-do-botao-center {
+  width: 285px;
+  height: 55px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 15px 0px 15px 2px;
+  margin-left: 40%;  
+  color: #fff;
+
+}
+
+button #cor-do-botao-center, a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  position: relative; 
+  margin-top: 20px;
+  margin-left: 16px;
+}
+
+ img.jl-seta-para-baixo {
+  width: 3%;
+  height: 3%;
+  margin-left: 48%;
+  margin-top: 4%;
+}
+
+div#jl-conteudo-1 a {
+  margin-right: 43%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 16px;
+}
+
+div.texto-left h2 {
+text-align: left;
+margin-left: 9%;
+margin-top: 15%;
+}
+
+.texto-left p {
+  color: #fff;
+  margin-left: 9%;
+}
+
+.jl-imagem-seta {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 85%;
+  margin-bottom: -7%;
+}
+
+button:hover {
+  background-color: rgb(196, 41, 74) !important;
+  transition: all 0.5s;
+}
+
+section div#jl-conteudo-1 h1 {
+  text-align: center;
+  color: black;
+  padding: 4%;  
+}
+.jl-titulo-h2, h1 {  
+  color: black;
+  text-align: center;
+  margin-top: 5%;
+}
+#h2-home-branco {
+  color: #fff;
+}
+
+.jl-seta-para-cima {
+  width: 10%;
+  height: 10%;
+  margin-left: -2%;
+}
+
+.jl-red-conteudo {
+  color: rgb(255, 0, 0);
+}
+
+.jl-imagem-meio-conteudo {
+  margin-left: 50%;
+  margin-top: -22%;  
+}
+
+/*******inicio Section Renato resposividade conteudo 2*******/
+
+@media only screen and (max-width: 750px) {
+  .jl-imagem-meio-conteudo {
+    width: 300px;
+  }
+} /*******Fim Section Renato resposividade conteudo 2*******/
+
+
+
+/*******Inicio Section Renato resposividade conteudo rodape*******/
+@media only screen and (max-width: 600px) {
+     .responsividade-do-rodape {    
+      margin-top: 30% !important;
+      margin-left: -16% !important;
+      
+      }
+      #jl-margem-direita {
+        margin-top: -5% !important;
+        margin-left: 12% !important;
+        
+      }
+      .redes-sociais-rodape {        
+        margin-left: 10% !important;
+        
+      }
+      #jl-paragrafo-rodape {
+        margin-top: 12% !important;
+        margin-left: 25% !important;
+        
+      }
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .responsividade-do-rodape {
+    margin-top: 33% !important;
+    margin-left: -37.7%;
+    
+  }
+  #jl-margem-direita {
+    margin-top: -2% !important;
+    margin-left: 12% !important;     
+    
+  }
+  .redes-sociais-rodape { 
+    margin-left: 3.5% !important;   
+    border: 1px solid red;
+  }    
+  
+ #jl-paragrafo-rodape-tablet {
+    margin-top: -8%;
+    margin-left: 12%;   
+    border: 1px solid red;
+    
+    }
+  }
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+ 
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
+/*******Fim Section Renato resposividade conteudo rodape*******/
+
+
+
+/*******inicio Section Mauricio resposividade*******/
+@media only screen and (max-width: 750px) {
+  .jl-imagem-meio-conteudo {
+    width: 300px;
+  }
+}/*******inicio Section Mauricio resposividade*******/
+
+.jl-margem-conteudo-2 {
+  margin-top: -22%;
+}
+
+div.jl-imagem-meio-conteudo img {
+  width: 85%;
+}
+/******Inicio de Animação de imagens*****/
+
+.jl-imagem-meio-conteudo {
+  animation: go-back 1s ease-out;
+}
+
+@keyframes go-back {
+  from {
+    transform: translateX(1000px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/******Fim de Animação de imagens*****/
+
+/********Fim do conteudo 2 - Renato***********/
+
+/********Inicio do conteudo 3 - Moises***********/
+.section-2 {
+  background-color: black;
+  padding-bottom: 120px;
+  display: flex;
+}
+
+.titulo-sessão2 {
+  color: white;
+  font-size: 40px;
+  margin-left: 20%;
+  line-height: 1.4em;
+}
+.titulo-sessão2 span {
+  font-size: 40px;
+  color: red;
+}
+
+.text p {
+  color: white;
+  margin-left: 20%;
+  margin-top: -40px;
+  line-height: 1.8rem;
+  font-size: 13px;
+}
+.div-largura {
+  width: 85%;
+}
+
+.div-largura button a {
+  text-decoration: none;
+  color: white; 
+  top: 6%;
+}
+.div-largura button {
+  width: 330px;
+  height: 55px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 15px 0px 15px 2px;
+  margin-left: 20%;
+}
+
+.jl-imagem-seta-parabaixo {
+  width: 20px;
+  height: 20px;
+  display: block;
+  margin-left: 85%;
+  margin-bottom: -7%;
+  rotate: 90deg;
+}
+
+.video {
+  position: relative;
+  width: 120%;
+  box-sizing: border-box;
+}
+.video iframe {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  width: 95%;
+  height: 80%;
+  margin-top: 100px;
+}
+
+/********Fim do conteudo 3 - Moises***********/
+
+/********Inicio do conteudo 4 - Mauricio***********/
+section#back {  
+  background: #fff;  
+}
+main#principal {
+  display: flexbox; 
+   width: 100%;   
+   max-width: 1600px;
+  font-family: arial; 
+  padding-bottom: 30px;  
+}
+aside#map {  
+display: flex; 
+margin-left: 50%;
+position: relative;
+top: 100px;
+}
+div#inicio {   
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  width: 60%;
+  height: auto;    
+  margin-top: -520px;
+  margin-left: 7%;   
+  text-align: justify;      
+}
+h1#titulo-01 {   
+  display: flex; 
+  position: relative;    
+  align-content: center;  
+  color: #e50914;   
+ width: 49%;
+  max-width: 1600px;
+  font-size: 1.8rem;    
+  top:-10px;
+  text-align: justify;
+  left: 3%;
+}
+.paragrafoInicial {   
+  position: relative;
+  width: 50%;     
+  text-align: justify;
+  font-size: 1rem;
+  left: 3%;
+  z-index: 1200;    
+}
+.textoParInicial {    
+  color: red;
+}
+
+  /*centro*/
+
+div#centro {
+  display: flex;    
+  position: absolute;    
+  width: 770px; 
+  height: 490px;    
+  margin-left: 8%;  
+  margin-top: 60px;       
+}
+  /* ----- box2 - 5000 -- <- clientesAtend*/
+
+div#clientesAtend{
+  display: block;    
+  position: absolute;
+  width: 350px;
+  height: 220px;
+  top: 280px;     
+}
+
+.seta1 {
+  position: absolute;    
+  top: 70px;
+}
+
+.maisDe1 {
+  position: absolute;
+  top: 2px;
+  left:100px;
+}
+
+.quantidade1 {
+  position: absolute;
+  left: 80px;
+  top:-20px;
+  font-size: 5rem;
+  color: rgb(229, 9, 20);
+}
+
+.Nclient {
+position: absolute;
+top: 140px;
+left: 100px;
+text-align: justify;    
+}
+
+/* ---- box 1 - 500 --- <- investidos*/
+
+div#investidos {
+display: block;    
+position: absolute;
+width: 350px;
+height: 220px;   
+margin-left: -110px;
+left: 109px; 
+}
+
+.seta2 {
+position: absolute;
+top: 70px;
+}
+
+.maisDe2 {
+position: absolute;
+top: 2px;
+left:100px;
+}
+
+.quantidade2{
+position: absolute;
+left: 80px;
+top:-20px;
+font-size: 5rem;
+color: rgb(229, 9, 20);
+}
+
+.subTexto {
+position: absolute;
+top: 140px;
+left: 100px;
+text-align: justify;
+}
+
+/* -----box 3 - 200 --- <- escritorios*/
+
+div#escritorios {
+display: block;
+position: relative;
+width: 350px;
+height: 220px;
+left: 420px;
+top: 1px; 
+}
+
+.seta3 {
+position: relative;
+top: 70px; 
+}
+
+.maisDe3 {
+position: absolute;
+top: 2px;
+left:100px;
+}
+
+.quantidade3 {
+position: absolute;
+left: 80px;
+top:-20px;
+font-size: 5rem;
+color: rgb(229, 9, 20);
+}
+
+.subTexto2 {
+position: absolute;
+top: 140px;
+left: 100px;
+text-align: justify;  
+}
+
+/* ---- box 4 - 2bi ----*/
+
+div#faturamento {
+  display: block;    
+  position: absolute;
+  width: 350px;
+  height: 210px;
+  left: 415px;
+  top: 280px;               
+}
+
+.seta4 {
+position: relative;
+top: 70px; 
+}
+
+.maisDe4 {
+position: absolute;
+top: 2px;
+left:100px;   
+}
+
+.quantidade4 {
+  position: absolute;
+  left: 80px;
+  top:-20px;
+  font-size: 5rem;
+  color: rgb(229, 9, 20);   
+}
+
+.subTexto3 {
+position: absolute;
+top: 140px;
+left: 100px;
+text-align: justify;    
+}
+
+/* ------ final-pagina ------*/
+
+div#opcoesAjuda {
+  display: flex;  
+  position: relative; 
+  align-items: center;  
+  width: 75%;
+  height: auto; 
+  margin-left: 12%;
+  margin-top: 590px;
+  background-color: #fff;         
+}
+div#tituloR {
+  position: absolute;    
+  text-align: center ;
+  width: 750px;
+  margin-left: 215.7px;
+  margin-top: -500px;    
+}
+
+.ajuda {
+  display: block;
+  position: relative;
+  margin-top: 1px;
+  margin-left: 0;          
+}
+
+.subAjuda {
+color: red;
+}
+
+/*----- box1 ---- <- venda mais*/
+
+div#venda {
+  width: 380px;
+  height: 490px;
+  background-color: #1d1e20;
+  color: white;
+  margin-top: 150px;
+  clip-path: polygon(5% 0%, 100% 0px, 100% 0px, 100% 98%, 95% 100%, 0px 100%, 0px 100%, 0% 2%);
+}
+
+.i-venda {
+  position:relative;
+  left: 35%;
+  top: 5%;
+}
+
+.TitVenda {
+  padding: 20px 21px 10px 30px;    
+}
+
+.TextVenda {
+  margin:1px 30px 50px 30px;
+  font-size: 1rem;
+}
+
+.btAjuda {
+display: flex;
+width: 70%;
+margin: 70px 50px 25px 50px;
+text-align: left;
+font-size: 1rem;
+font-weight: 700;
+align-items: center;
+padding: 10px 1px 10px 5px ;
+background-color:rgb(229, 9, 20);
+color: rgb(255, 255, 255);
+clip-path: polygon(10px 0%, 80% 0%, 100% 0px, 100% 84.9057%, 96.6102% 100%, 0px 100%, 0% 80%, 0% 10px) ;
+cursor: pointer;
+}
+
+.setab {
+  padding-left:30px ;
+  margin-right: 10px;
+}
+
+/* ----- box 2 ---- <- franqueado*/
+
+div#franqueado {
+  width: 380px;
+  height: 490px;
+  background-color: #1d1e20;
+  color: white;
+  margin-top: 150px;
+  clip-path: polygon(5% 0%, 100% 0px, 100% 0px, 100% 98%, 95% 100%, 0px 100%, 0px 100%, 0% 2%);
+  margin-left: 1.2%;
+}
+
+.i-franq {
+  position:relative;
+  left: 35%;
+  top: 30px;
+}
+
+.tit-franq {
+  position: absolute;    
+  width: 300px;
+  margin: 50px 0px 30px 30px;
+}
+
+.text-franq {
+  margin:135px 30px 50px 30px;
+  font-size: 1rem;  
+}
+
+.part-sel {
+  display: flex;
+  width: 70%;
+  margin: 92px 50px 30px 50px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  align-items: center;
+  padding: 10px 1px 10px 5px ;
+  background-color:rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  clip-path: polygon(10px 0%, 80% 0%, 100% 0px, 100% 84.9057%, 96.6102% 100%, 0px 100%, 0% 80%, 0% 10px) ;
+  cursor: pointer;
+}
+
+.seta-franq {
+  padding-left: 30px ;
+  margin-right: 10px;
+}
+
+/* --- box 3------ <- carreira*/
+
+div#carreira {
+  width: 380px;
+  height: 490px;
+  background-color: #1d1e20;
+  color: white;
+  margin-top: 150px;
+  clip-path: polygon(5% 0%, 100% 0px, 100% 0px, 100% 98%, 95% 100%, 0px 100%, 0px 100%, 0% 2%);
+  margin-left: 1.2%;
+}
+
+.i-carreira {
+  position:relative;
+  left: 35%;
+  top: 30px;  
+}
+
+.tit-carreira {
+  position: absolute;    
+  width: 300px;
+  margin: 38px 0px 30px 30px;   
+}
+
+.text-carreira {
+  margin:120px 30px 50px 30px;
+  font-size: 1rem;
+}
+
+.b-carreira {
+  display: flex;
+  width: 70%;
+  margin: 59.9px 50px auto 50px;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;    
+  align-items: center;
+  padding: 10px 1px 10px 5px ;
+  background-color:rgb(229, 9, 20);
+  color: rgb(255, 255, 255);
+  clip-path: polygon(10px 0%, 80% 0%, 100% 0px, 100% 84.9057%, 96.6102% 100%, 0px 100%, 0% 80%, 0% 10px) ;
+  cursor: pointer;
+}
+  /* --- inicio responsivo ----*/
+ 
+  
+
+/********Fim do conteudo 4 - Mauricio***********/
+
+/********Inicio do conteudo 5 - Moises***********/
+
+/********Fim do conteudo 5 - Moises***********/
+
+/********Inicio do conteudo 6 - Renato***********/
+div.jl-rodape img {
+  width: 250px;
+  height: 100px;
+  margin: 5% 0 0 11.4%;
+  cursor: pointer;
+}
+
+div.jl-rodape p {
+  margin: 1% 0 0 11.9%;
+  color: #fff;
+}
+
+div img.jl-rodape-2 {
+  background-color: rgba(255, 255, 255, 255);
+  padding: 1px;
+  border-radius: 5px;
+  margin: 2.5% 0 0 11.9%;
+}
+
+h2#jl-margem-direita  {
+  color: #fff;
+  text-align: left;  
+  margin: -15% 0 0 65%;
+  
+}
+
+div.jl-titulo-centro h3 {
+  color: #fff;  
+  text-align: center;
+  margin-top: -23%;  
+}
+
+.margem2 {    
+  color: #fff;
+  color: #fff;  
+  text-align: center;
+  margin-top: 3%;
+}
+
+.margem3 {
+  margin-top: 10px;  
+  color: #fff;
+  color: #fff;  
+  text-align: center;
+  margin-top: 3%;
+}
+
+h3 img {
+  width: 25px;
+}
+
+#jl-margem-direita img {
+  width: 10%;
+}
+
+#background-preto {
+  background: black;
+  padding-bottom: 10%;  
+}
+
+#jl-paragrafo-rodape {
+  position: relative;
+  color: #fff;
+  text-align: left;
+  margin-left: 64.8%;
+}
+
+ .redes-sociais-rodape li img{
+  position: relative;
+  width: 30px;
+  margin: 7px;
+  margin-left: 5%;   
+}
+
+.redes-sociais-rodape li {
+  float: left;  
+}
+
+ul.redes-sociais-rodape  {
+ margin-left: 62%;
+ margin-bottom: 4%;
+ 
+}
+img#jl-chat {
+  width: 5%;
+  margin-left: 88.5%;
+  margin-bottom: -6%;
+  cursor: pointer;
+}
+
+#jl-paragrafo-rodape-tablet {
+  color: rgba(255, 255, 255, 0);    
+  
+  
+}
+
+/********Fim do conteudo 6 - Renato***********/
+
